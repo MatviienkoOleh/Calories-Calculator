@@ -1,0 +1,17 @@
+.view_Result {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  color: #0070C9;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.view_result_info {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}

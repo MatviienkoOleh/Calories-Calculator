@@ -1,0 +1,159 @@
+.wrapper_Diet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.wrapper_Diet_Section_One {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.daily_Meal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.daily_Meal_Paragraph {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  width: 90%;
+  text-align: center;
+}
+
+.daily_Meal_Paragraph_Two {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+.wrapper_Diet_Section_Header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper_Diet_Section_One_Block {
+  margin-top: 50px;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.diet_Info {
+  display: flex;
+  flex-direction: column;
+}
+
+.diet_Font {
+  margin-top: 5px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.wrapper_Diet_Section_Two_Block {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrapper_Diet_Section_Two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper_Diet_Section_Select_Menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.diet_Per_Servings {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.diet_Per_Serving_Block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 5px;
+  width: 130px;
+  height: 140px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.diet_Per_Serving_Header {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.diet_Block_list {
+  margin-bottom: 10px;
+
+  font-family:'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.margin_Top {
+  margin-top: 50px;
+}
+
+.box select {
+  background-color: #0070C9;
+  background-image: linear-gradient(#42A1EC, #0070C9);
+  color: white;
+  padding: 12px;
+  width: 200px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  margin: 10px 35px;
+}
+
+.box::before {
+  content: "\f13a";
+  font-family:'Times New Roman', Times, serif;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.box::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+  padding: 10px;
+}
